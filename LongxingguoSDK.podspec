@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "LongxingguoSDK"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "LongxingguoSDK."
   s.homepage     = "https://github.com/longxingguo/LongxingguoSDK"
   s.license      = "MIT"
@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit', 'Foundation', 'SystemConfiguration','CoreTelephony','Security','CoreMotion','CFNetwork','CoreGraphics','CoreText','QuartzCore'
   s.libraries  = 'z','c++','sqlite3'
   s.requires_arc = true
+  s.dependency "AFNetworking"
  end
